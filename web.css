@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.bg1{
+    background-color: goldenrod;
+}
+.list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.image img{
+    height: auto;
+    width: 220px;
+}
+.srch{
+    display: flex;
+    margin-top: 15px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-right: 25px;
+}
+/* This is .container 1 */
+.conpart1{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.text h1{
+    color: whitesmoke;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.text,.text1{
+    margin: 100px;
+}
+.text p{
+    font-size: xx-large;
+    color: white;
+
+}
+.conpart1 img{
+    margin-right: 200px;
+}
+.text .button{
+    background-color: skyblue;
+    border: 3px solid blueviolet;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.button2{
+    padding: 8px;
+    border-radius: 10px;
+}
+.conpart1 img{
+    height: 400px;
+    width: 300px;
+}
+/* This is .container 2 */
+.box{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: goldenrod;
+    bottom: -14px;
+    right: 169px;
+    z-index: -1;
+}
+.image1{
+    position: relative;
+    margin-top: 50px;
+    margin-right: 130px;
+}
+.text1 h1{
+    font-size: 40px;
+}
+.text1 p{
+    font-size: 30px;
+}
+.conpart2{
+    display: flex;
+    justify-content: space-between;
+}
+.conpart2 img{
+    height: auto;
+    width: 400px;
+}
+.size1{
+    width: 30%;
+}
+.image2{
+    display: flex;
+    justify-content: space-between;
+}
+.text2{
+    text-align: center;
+    margin-top: 26px;
+    margin-right: 27px;
+    padding-top: 10px;
+}
+.bg{
+    background-color: #fcc302;
+    color: white;
+}
+.conpart4{
+    display: flex;
+    justify-content: space-between;
+}
+.image3 img{
+    height: auto;
+    width: 400px;
+}
+.text3 h1{
+    font-size: 40px;
+}
+.text2,.text3 p{
+    font-size: 30px;
+}
+.image4 img{
+    height: auto;
+    width: 359px;
+    margin-left: 75px;
+    margin-top: 38px;
+}
+.box1{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: goldenrod;
+    left: 56px;
+    top: 144px;
+    z-index: -1;
+
+}
+.button01{
+    padding: 10px;
+    font-size: 18px;
+    background-color: gold;
+    border: 1px solid black;
+    border-radius: 11px;
+}
+.image4{
+    position: relative;
+}
+.text3{
+    text-align: left;
+    margin-top: 120px;
+    margin-right: 62px;
+}
+.dogview{
+    padding: 10px;
+    font-size: 18px;
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 11px;
+    margin-top: 30px;
+}
+.dogview:hover{
+    color: white;
+    background-color: blue;
+}
+.media{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: gold;
+    display: inline-block;
+}
+._image{
+    display: flex;
+    justify-content: space-around;
+
+}
+._text{
+    display: flex;
+    justify-content: space-around;
+}
+._image img{
+    height: auto;
+    width: 150px;
+}
+.size11{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    height: auto;
+    width: 361px;
+}
+.image22{
+    display: flex;
+    justify-content: space-between;
+
+}
+.size11 img{
+    align-items: center;
+}
+.bgnav{
+    background-color: #232F3E;
+}
+.text0_ ul{
+    list-style: none;
+}
+.container_{
+    display: flex;
+    gap: 146px;
+    padding: 76px;
+}
+.text0_ ul ,a,li{
+    line-height: 38px;
+    text-decoration: none;
+    color: white;
+}
+.text0_  h1{
+    color: white;
+}
+.right{
+    display: inline-block;
+    text-align: right;
+    justify-content: right;
+}
+.srch1{
+    display: flex;
+    margin-top: 17px;
+    border-radius: 10px;
+    padding: 12px;
+    padding-right: 148px;
+}
+.right .srch11{
+    display: flex;
+    justify-content: right;
+}
+.right{
+    color: white;
+}
+.media1{
+    background-color: gold;
+    height: 37px;
+    width: 37px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.right1{
+    margin-left: 562px;
+}
+.unnone{
+    position: fixed;
+    height: 48px;
+    border-radius: 60%;
+    bottom: 13px;
+    left: 10px;
+}
+.uup{
+    position: fixed;
+    height: 48px;
+    border-radius: 100%;
+    bottom: 13px;
+    right: 13px;
+}
+.zoom img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(0);
+}
+.zoom:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
